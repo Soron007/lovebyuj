@@ -5,7 +5,7 @@ const App = () => {
   return (
     <div>
       <header>withLoveByUJ</header>
-      <main></main>
+      <main>Main Content</main>
       <footer>All Rights Reserved</footer>
     </div>
   );
