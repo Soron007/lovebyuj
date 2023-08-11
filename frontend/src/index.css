@@ -7,6 +7,10 @@
   -webkit-text-size-adjust: 100%;
 }
 
+body{
+  transition: background-color 0.6s ease-in-out;
+}
+
 
 
 .product-image{
@@ -20,4 +24,16 @@
 
 img.large{
   max-width: 80%;
+}
+
+i{
+  transition: color 0.6s ease-in-out;
+}
+
+.fa-sun {
+  color: #f39c12; /* Light mode icon color */
+}
+
+.fa-moon {
+  color: #eef1f3b7; /* Dark mode icon color */
 }
